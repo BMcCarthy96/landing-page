@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+}
+
+.body {
+    
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+a {
+
+}
+
+li {
+
+}
+
+ul{
+
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
