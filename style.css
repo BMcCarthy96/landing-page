@@ -1,15 +1,36 @@
 .header {
     display: flex;
+    background: rgb(50, 55, 82);
+    color: white;
 }
 
-.body {
-    
+.right-links {
+    display: flex;
+    list-style-type: none;
+}
+
+body {
+
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .intro-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     padding: 16px;
+}
+
+.container-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 50px;
 }
 
 a {
@@ -24,7 +45,21 @@ ul{
 
 }
 
+.inspirational-quote {
+    background: #eee;
+    padding: 50px;
+}
+
+button {
+    border-radius: 10px;
+    color: white;
+    background:rgb(106, 106, 243)
+}
+
 .footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 50px;
+    background: rgb(106, 106, 243);
 }
